@@ -60,17 +60,19 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [finish mobile version] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Added four card and a about me section
+> hover buttons.
 
-**[your_project__name]** is a...
+**[finish mobile version]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+>Used HTML
+>Used CSS
 
 <details>
   <summary>Client</summary>
