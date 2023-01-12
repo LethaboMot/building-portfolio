@@ -89,7 +89,6 @@ p {
 
 .center {
   padding: 20px;
-  /* background: white; */
   margin-right: 10px;
   color: #7f8cff;
   text-decoration: none;
@@ -281,7 +280,7 @@ li {
 #about_me {
   width: 100%;
   height: calc(100vh - 48px);
-  background-color:#fff; ;
+  background-color: #fff;
   background-image: url("images/about\ me.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -308,5 +307,5 @@ li {
 }
 
 .greybackground {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
