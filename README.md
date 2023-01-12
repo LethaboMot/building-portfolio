@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [setup mobile <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Making a monile version of the website.
 
-**[your_project__name]** is a...
+**[setup mobile]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -207,15 +207,10 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@LethaboMot](https://github.com/LethaboMot)
+- Twitter: [@profcipher](https://twitter.com/profcipher)
+- LinkedIn: [Lethabo Motloung](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
