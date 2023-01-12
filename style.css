@@ -89,7 +89,7 @@ p {
 
 .center {
   padding: 20px;
-  background: white;
+  /* background: white; */
   margin-right: 10px;
   color: #7f8cff;
   text-decoration: none;
@@ -111,6 +111,7 @@ p {
   border: 1px solid #c6c6c6;
   padding: 20px 15px;
   display: grid;
+  flex-direction: row;
 }
 
 .list_align {
@@ -280,10 +281,12 @@ li {
 #about_me {
   width: 100%;
   height: calc(100vh - 48px);
+  background-color:#fff; ;
   background-image: url("images/about\ me.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-top: 114px;
+  border-top-right-radius: 80px 80px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -302,4 +305,8 @@ li {
   flex-direction: column;
   margin: 10px 20px;
   list-style: none;
+}
+
+.greybackground {
+  background-color: #E5E5E5;
 }
