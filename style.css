@@ -76,23 +76,28 @@ p {
 
 .Socials {
   display: flex;
-  gap: 20px;
+  gap: 21px;
   list-style: none;
   padding: 0 24px;
 }
 
 .mid {
-  padding: 20px;
+  padding: 12px;
   margin-right: 10px;
   color: #344563;
+  margin-bottom: 10px;
+  padding-bottom: 12px;
 }
 
 .center {
-  padding: 20px;
+  padding: 10px;
   margin-right: 10px;
   color: #7f8cff;
   text-decoration: none;
   font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 #wrap {
@@ -108,9 +113,9 @@ p {
   background: #fff;
   border-radius: 16px;
   border: 1px solid #c6c6c6;
-  padding: 20px 15px;
-  display: grid;
-  flex-direction: row;
+  padding: 10px 7.5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .list_align {
@@ -118,6 +123,7 @@ p {
   font-style: normal;
   display: row;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .description {
@@ -202,6 +208,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin: 10px 0;
+  margin-bottom: 18px;
 }
 
 .tags > li {
@@ -235,7 +242,7 @@ li {
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
-  font-weight: bold;
+  font-weight: 500;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
@@ -280,15 +287,14 @@ li {
 #about_me {
   width: 100%;
   height: calc(100vh - 48px);
-  background-color: #fff;
-  background-image: url("images/about\ me.svg");
+  background-color:#fff;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding-top: 114px;
+  padding-top: 75px;
   border-top-right-radius: 80px 80px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  /* gap: 12px; */
 }
 
 #about_me h2 {
@@ -307,5 +313,9 @@ li {
 }
 
 .greybackground {
-  background-color: #e5e5e5;
+  background-color: #E5E5E5;
+}
+
+.separation {
+  border-top: 1px solid #bbb;
 }
