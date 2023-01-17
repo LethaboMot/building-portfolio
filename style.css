@@ -352,12 +352,12 @@ footer.contact-menu {
   border-radius: 150px 0 0;
   padding: 103px 24px 24px 45px;
   background-image: url("./images/contact\ form\ shapes-mobile@2x.png");
-  background-size: contain;
+  background-size: 400px;
 }
 
 .contact-form {
   width: 100%;
-  display: grid; 
+  display: grid;
 }
 
 input[type="text"] {
