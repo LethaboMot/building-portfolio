@@ -370,26 +370,4 @@ input[type="text"] {
   border-radius: 8px;
 }
 
-input[type="email"] {
-  width: 100%;
-  margin: 10px 0;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 20px;
-  padding: 10px;
-  color: #172b4d;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-}
-
-input[type="message"] {
-  width: 100%;
-  border-radius: 8px;
-  border: 1px solid rgb(231, 202, 202);
-  min-height: 140px;
-  padding: 10px;
-  margin: 22px 0;
-  color: #172b4d;
-  font-family: Poppins, sans-serif;
-  line-height: 20px;
-}
+/* add code here */
