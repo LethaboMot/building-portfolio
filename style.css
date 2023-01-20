@@ -10,7 +10,6 @@ html {
 }
 
 header .toolbar {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -54,7 +53,7 @@ p {
 }
 
 #Introduction h1 {
-  font-style: normal;
+ 
   font-weight: 700;
   font-size: 40px;
   color: #253652;
@@ -62,8 +61,6 @@ p {
 }
 
 footer p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -72,7 +69,6 @@ footer p {
 }
 
 #toppart p {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #344563;
@@ -138,8 +134,6 @@ footer p {
 }
 
 .list_align {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -155,22 +149,12 @@ li {
 }
 
 .bold {
-  width: 55px;
-  height: 16px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
   color: #344563;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
+  margin-left: 10px;
+  }
 
 .heading {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   margin: 10px 0;
   color: #172b4d;
   font-size: 32px;
@@ -188,7 +172,7 @@ li {
   border: 1px solid #396df2;
   text-decoration: none;
   overflow: hidden;
-  margin-left: 20px;
+  
 }
 
 .bluebutton:hover {
@@ -197,6 +181,29 @@ li {
 }
 
 .bluebutton:focus {
+  background: #396df2;
+  color: #fff;
+}
+
+.bluebutton1 {
+  cursor: pointer;
+  font-size: 17px;
+  color: #396df2;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #396df2;
+  text-decoration: none;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.bluebutton1:hover {
+  background-color: #396df2;
+  color: white;
+}
+
+.bluebutton1:focus {
   background: #396df2;
   color: #fff;
 }
@@ -248,8 +255,6 @@ li {
 .text {
   width: 295px;
   height: 76px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -262,8 +267,6 @@ li {
 /* changed the bold  to font weight */
 
 .codeused {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
@@ -281,8 +284,6 @@ li {
 }
 
 .grey_area {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   padding: 10px;
   color: #253858;
   display: flex;
@@ -315,8 +316,6 @@ li {
 }
 
 footer h2 {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
   text-align: center;
   font-size: 40px;
   font-weight: 700;
@@ -326,7 +325,6 @@ footer h2 {
 }
 
 #about_me h2 {
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   color: #253652;
@@ -356,7 +354,7 @@ footer.contact-menu {
 
 .contact-form {
   width: 100%;
-  display: grid;
+  display: grid; 
 }
 
 input[type="text"] {
@@ -388,7 +386,6 @@ input[type="message"] {
   min-height: 140px;
   margin: 22px 0;
   color: #172b4d;
-  font-family: Poppins, sans-serif;
   line-height: 20px;
   margin-bottom: 22px;
 }
@@ -419,6 +416,8 @@ input[type="message"] {
     align-items: flex;
     padding: 150px 100px;
     background-image: url("images/Header\ bg.svg") no-repeat center center #fff;
+    background-size: 1581px;
+    padding-top: 300px;
   }
 
   .info-tag {
@@ -427,7 +426,6 @@ input[type="message"] {
 
   #Introduction h1 {
     color: #091e42;
-    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -452,13 +450,17 @@ input[type="message"] {
     line-height: 20px;
   }
 
+  p  {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
   .navigation_option a {
     color: #344563;
   }
 
   .mid {
-    font-family: Poppins, sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     color: #344563;
@@ -473,8 +475,8 @@ input[type="message"] {
   .whitebox {
     display: flex;
     flex-direction: row;
-    border: 2px solid #a7aeff;
     border-radius: 24px;
+    margin-right: 50px;
   }
 
   .whitebox:nth-child(even) .imageclass {
@@ -485,6 +487,11 @@ input[type="message"] {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 100px;
+    padding-left: 10px;
+  }
+
+  .leftpart {
+    padding-left: 100px;
   }
 
   .sidebyside {
@@ -492,6 +499,11 @@ input[type="message"] {
     float: right;
     width: 100%;
     height: 280px;
+    margin-right: 45  0px;
+  }
+  
+  .screening {
+    margin-bottom: 00px;
   }
 
   .code {
@@ -517,7 +529,9 @@ input[type="message"] {
 
   p {
     margin-top: 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    font-size: 20px;
+    padding-bottom: 5px;
   }
 
   button[type="button"] {
