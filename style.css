@@ -493,7 +493,8 @@ input[type="message"] {
   }
 
   .leftpart {
-    padding-left: 100px;
+    margin-left: 400px;
+    margin-right: -49px;
   }
 
   .sidebyside {
@@ -529,8 +530,7 @@ input[type="message"] {
   }
 
   .listed {
-    margin-right: 300px;
-    margin-left: -100px;
+    margin-right: 100px;
   }
 
   .contact-form {
