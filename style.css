@@ -98,19 +98,20 @@ footer p {
   gap: 20px;
   list-style: none;
   padding: 0 24px;
+  margin-top: 30px;
 }
 
 .mid {
-  padding: 20px;
+  /* padding: 20px; */
   margin-right: 10px;
   color: #344563;
+  margin-left: 20px;
 }
 
 .center {
-  padding: 20px;
+  padding-left: 20px;
   margin-right: 10px;
   color: #7f8cff;
-  text-decoration: none;
   font-size: 20px;
 }
 
@@ -409,13 +410,14 @@ input[type="message"] {
   }
 
   #Introduction {
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: flex;
+    margin-top: 80px;
+    background-image: url("images/Header\ bg@2x.svg");
+    background-size: contain;
+    height: 916px;
+  }
+
+  .padding {
     padding: 150px 100px;
-    background-image: url("images/Header\ bg.svg") no-repeat center center #fff;
-    background-size: 1581px;
-    padding-top: 300px;
   }
 
   .info-tag {
@@ -428,6 +430,7 @@ input[type="message"] {
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
+    padding-top: 50px;
   }
 
   .toolbar {
@@ -453,7 +456,6 @@ input[type="message"] {
     font-size: 20px;
     line-height: 28px;
     margin-top: 10px;
-    padding-bottom: 5px;
   }
 
   .navigation_option a {
@@ -468,7 +470,7 @@ input[type="message"] {
   }
 
   .center {
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 20px;
   }
 
@@ -495,11 +497,10 @@ input[type="message"] {
   }
 
   .sidebyside {
-    margin-top: 60px;
     float: right;
     width: 100%;
     height: 280px;
-    margin-right: 45px;
+    margin-right: 400px;
   }
 
   .code {
@@ -527,6 +528,11 @@ input[type="message"] {
     margin-top: 20px;
   }
 
+  .listed {
+    margin-right: 300px;
+    margin-left: -100px;
+  }
+
   .contact-form {
     justify-content: center;
     align-items: center;
@@ -536,7 +542,7 @@ input[type="message"] {
 
   footer.contact-menu {
     padding: 182px 400px 127px;
-    background: url("images/contact\ form\ background\ shapes.png") no-repeat center center #6070ff;
+    background: url("images/contact\ form\ background\ shapes.svg") no-repeat center center #6070ff;
     display: grid;
     overflow: auto;
   }
