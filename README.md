@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [setup mobile <a name="about-project"></a>
+# 📖 [Portfolio: desktop version] <a name="about-project"></a>
 
 > Making a monile version of the website.
 
-**[setup mobile]** is a...
+**[Portfolio: desktop version]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,7 +99,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
+- **[desktop version]**
 - **[key_feature_2]**
 - **[key_feature_3]**
 
