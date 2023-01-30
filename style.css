@@ -297,6 +297,11 @@ li {
   margin-right: 20px;
 }
 
+.whitebox:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px #a7aeff;
+}
+
 .imageclass img {
   max-width: 100%;
 }
@@ -386,9 +391,43 @@ input[type="message"] {
   margin-bottom: 22px;
 }
 
+/* mobile menu */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #6070ff !important;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: left;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.overlay p .slidefont {
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 22px;
+}
+
 /* desktop version */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   html,
   body {
     width: 100%;
