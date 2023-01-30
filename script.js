@@ -3,7 +3,7 @@ function openNav(open) {
   return open;
 }
 openNav('hello');
-  
+
 function closeNav(close) {
   document.getElementById('slidemenu').style.width = '0';
   return close;
