@@ -475,7 +475,6 @@ input[type="message"] {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: flex;
     margin: 0;
   }
 
@@ -508,7 +507,6 @@ input[type="message"] {
   }
 
   .center {
-    font-weight: 300px;
     font-size: 20px;
   }
 
