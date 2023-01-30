@@ -400,6 +400,8 @@ input[type="message"] {
   top: 0;
   left: 0;
   background-color: #6070ff !important;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(6px);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
