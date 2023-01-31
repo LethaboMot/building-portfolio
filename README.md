@@ -62,9 +62,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio: desktop version] <a name="about-project"></a>
 
-> Making a monile version of the website.
+> Making a mobile version of the website.
 
-**[Portfolio: desktop version]** is a...
+**[Portfolio: mobile menu]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,9 +99,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[desktop version]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[making an overlay]**
+- **[added a mobile menu]**
+- **[added blurry background]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,11 +205,16 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Lethabo**
 
 - GitHub: [@LethaboMot](https://github.com/LethaboMot)
 - Twitter: [@profcipher](https://twitter.com/profcipher)
 - LinkedIn: [Lethabo Motloung](https://linkedin.com/in/linkedinhandle)
+
+👤 **Enis Memic**
+
+- GitHub: [@enis-memic](https://github.com/enis-memic)
+- LinkedIn: [Enis Memic](https://linkedin.com/in/enis-memic)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -220,9 +225,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[add links]**
+- [ ] **[add more styling]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
