@@ -75,9 +75,3 @@ window.onclick = function (event) {
     popup3.style.display = 'none';
   }
 };
-
-window.onclick = function (event) {
-  if (event.target === projects) {
-    projects.style.display = 'none';
-  }
-};
