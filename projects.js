@@ -49,4 +49,8 @@ const projects = [
   },
   ];
 
-  export default projects;
+   window.onclick = function (event) {
+  if (event.target === projects) {
+    projects.style.display = 'none';
+  }
+};
