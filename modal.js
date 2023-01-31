@@ -18,7 +18,7 @@ const projects = [{
   card: 1,
   name: 'Tonic',
   description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since th',
-  image: './img/images/Snapshoot Portfolio.svg',
+  image: './img/images/Nature',
   technologies: ['html', 'JavaScript', 'css'],
   source: 'https://github.com/LethaboMot',
   link: 'https://lethabomot.github.io/Port-folio/',
