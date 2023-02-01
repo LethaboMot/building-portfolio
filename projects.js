@@ -47,9 +47,9 @@ const projects = [
     source: 'https://github.com/LethaboMot',
     link: 'https://lethabomot.github.io/Port-folio/',
   },
-  ];
+];
 
-   window.onclick = function (event) {
+window.onclick = function (event) {
   if (event.target === projects) {
     projects.style.display = 'none';
   }
