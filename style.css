@@ -129,7 +129,7 @@ footer p {
   row-gap: 70px;
   padding: 114px 24px;
   background: #e5e5e5;
-  justify-items: center
+  justify-items: center;
 }
 
 .whitebox {
@@ -589,7 +589,6 @@ input[type="message"] {
 }
 
 .button {
-  margin-top: 200px;
   width: 200px;
   margin: 0 auto;
   display: inline;
@@ -804,8 +803,6 @@ input[type="message"] {
   .perpendicular {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* padding-bottom: 100px; */
-    gap: 20;
     padding-top: 50px;
   }
 
@@ -815,11 +812,8 @@ input[type="message"] {
   }
 
   .text2 {
-    width: 770px;
-    /* height: 382px; */
+    width: 778px;
     font-style: normal;
-    /* font-weight: 400; */
-    /* font-size: 16px; */
     line-height: 30px;
     color: #344563;
     flex: none;
