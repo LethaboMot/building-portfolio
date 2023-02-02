@@ -23,13 +23,11 @@ email.addEventListener('input', () => {
 });
 
 form.addEventListener('submit', (event) => {
-
-
   const isValid = email.value.length === 0 || emailRegExp.test(email.value);
   if (!isValid) {
-    event.preventDefault()
+    event.preventDefault();
     email.className = 'not ok';
     wrong.textContent = 'Please enter email in lowercases';
     wrong.className = 'error active';
-  } 
+  }
 });
