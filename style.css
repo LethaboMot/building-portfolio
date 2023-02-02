@@ -605,7 +605,9 @@ input[type="message"] {
   height: auto;
 }
 
-/* add code here */
+.error {
+  color: red;
+}
 
 
 .text2 {
