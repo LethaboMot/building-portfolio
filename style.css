@@ -605,6 +605,10 @@ input[type="message"] {
   height: auto;
 }
 
+.error {
+  color: red;
+}
+
 .text2 {
   padding-top: 30px;
   width: 311px;
